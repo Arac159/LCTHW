@@ -12,28 +12,28 @@ int main (int argc, char *argv[])
         int i = 0;
        	for (i = 0; argv[1][i] != '\0'; i++) {
             char letter = argv[1][i];
-            int tolower(int letter);
+            char lowletter = tolower(letter);
 
-            switch (letter) {
+            switch (toletter) {
 
                 case 'a':
-                   printf("%d: 'A'\n", i);
+                   printf("%d: 'A' is a vowel\n", i);
                    break;   
 
                 case 'e':
-                  printf("%d: 'E'\n", i);
+                  printf("%d: 'E' is a vowel\n", i);
                   break;
                 
                 case 'i':
-                  printf("%d: 'I'\n", i);
+                  printf("%d: 'I' is a vowel\n", i);
                   break;
 
                case 'o':
-                 printf("%d: 'O'\n", i);
+                 printf("%d: 'O' is a vowel\n", i);
                  break;
 
                case 'u':
-                 printf("%d: 'U'\n", i);
+                 printf("%d: 'U' is a vowel\n", i);
                  break;
 
                case 'y':
