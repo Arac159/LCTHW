@@ -14,27 +14,27 @@ int main (int argc, char *argv[])
 
                 case 'a':
                 case 'A':
-                   printf("%d: 'A'\n", i);
+                   printf("%d: 'A' is a vowel\n", i);
                    break;
 
                 case 'e':
                 case 'E':
-                  printf("%d: 'E'\n", i);
+                  printf("%d: 'E' is a vowel\n", i);
                   break;
                 
                 case 'i':
                 case 'I':
-                  printf("%d: 'I'\n", i);
+                  printf("%d: 'I' is a vowel\n", i);
                   break;
 
                case 'o':
                case 'O':
-                 printf("%d: 'O'\n", i);
+                 printf("%d: 'O' is a vowel\n", i);
                  break;
 
                case 'u':
                case 'U':
-                 printf("%d: 'U'\n", i);
+                 printf("%d: 'U' is a vowel\n", i);
                  break;
 
                case 'y':
